@@ -1,7 +1,7 @@
 #include <stdio.h>
-/* Include the library
+/** Include the library
  * Standard input/output
- * main: entry point
+ * main -  entry point
  * return: always 0 (success)
  */
 
