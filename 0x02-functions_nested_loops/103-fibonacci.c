@@ -1,11 +1,10 @@
 #include <stdio.h>
-
-
-	/**
-	 * main - finds and prints the sum of the even-valued terms
-	 * followed by a new line
-	 * Return: Always 0 (Success)
-	 */
+/**
+ * main - Prints the sum of even-valued Fibonacci sequence
+ *        terms not exceeding 4000000.
+ *
+ * Return: Always 0.
+ */
 	int main(void)
 	{
 		int i;
