@@ -20,14 +20,15 @@ return (i);
 *including the terminating null byte (\0)
 *to the buffer pointed to by dest
 *@dest: pointer to the buffer in which we copy the string
-*@src: string to be copied
+*@src: string to be copi
 *Return: the pointer to dest
 */
 char *_strcpy(char *dest, char *src)
 {
 int len, i;
 len = 0;
-while (src[len] != 
+while (src[len] != '\0')
+{
 len++;
 }
 for (i = 0; i < len; i++)
@@ -56,6 +57,7 @@ return (NULL);
 dog->name = malloc(sizeof(char) * (len1 + 1));
 if (dog->name == NULL)
 {
+free(dog);
 return (NULL);
 }
 dog->owner = malloc(sizeof(char) * (len2 + 1));
